@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="../CSS/Style.css" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Lato&family=Montserrat:wght@400;700;900&family=Unbounded:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Icono Favorito -->
+    <link
+      rel="shortcut icon"
+      href="../imgs/Gym favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- NAV BAR  -->
+      <nav class="navbar">
+        <a class="logo" href="../index.html"
+          ><img src="../imgs/Logo1.jpg" alt=""
+        /></a>
+        <ul class="nav__list">
+          <li class="nav_item">
+            <a class="nav_link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav_item"><a class="nav_link" href="">Nosotros</a></li>
+          <li class="nav_item">
+            <a class="nav_link" href="/Paginas/Actividades.html">Actividades</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="/Paginas/Elegituplan.html"
+              >Elegi tu plan</a
+            >
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="/Paginas/Contactanos.html">Contacto</a>
+          </li>
+        </ul>
+        <span class="btn_menu">
+          <i class="fa fa-bars"></i>
+        </span>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <section id="contacto">
+        <div class="text-contacto">
+          <h2>Queres formar parte de nuestro centro de entrenamiento?</h2>
+          <h3>
+            Envianos tus dudas y consultas y te responderemos a la bevedad
+          </h3>
+        </div>
+        <div>
+          <form class="form-register" action="">
+            <fieldset>
+              <legend class="title-form">Envie su mensaje</legend>
+              <div class="form-group">
+                <label for="nombre y apellido">Nombre y Apellido:</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  name="nombre y apellido"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input class="form-input" type="text" name="email" />
+              </div>
+              <div class="form-group">
+                <label for="asunto">Asunto:</label>
+                <input class="form-input" type="text" name="asunto" />
+              </div>
+              <p class="form-group">Seleccione el centro que desea consultar</p>
+              <div>
+                <label for="sucursal">Sucursal:</label>
+                <select class="form-select" name="sucursal" id="sucursal">
+                  <option value="Ituzaingo">Ituzaingo 441</option>
+                  <option value="Cañada">Cañada (Figueroa Alcorta 56)</option>
+                  <option value="Chacabuco">Chacabuco 472</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+              </div>
+              <input class="button-form" type="submit" value="Enviar" />
+              <input class="button-form" type="reset" value="Borrar" />
+            </fieldset>
+          </form>
+        </div>
+      </section>
+      <section id="ubication">
+        <h2 class="text-ubication">
+          Buscá el centro de entrenamiento mas cercano a ti
+        </h2>
+        <div class="container-maps">
+          <div class="maps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13618.819199760223!2d-64.19998229218743!3d-31.42225839999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a3be7311c5df%3A0x3b2a7911881cb960!2sEffort%20Gym!5e0!3m2!1ses!2sar!4v1674958024559!5m2!1ses!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="text-maps">
+            <h3>Sucursal Ituzaingo</h3>
+            <p>Calle Ituzaingo 441</p>
+          </div>
+        </div>
+        <div class="container-maps">
+          <div class="maps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13618.819199760223!2d-64.19998229218743!3d-31.42225839999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299792b0dfe03%3A0x7d439588f2b27654!2sEffort%20Gym!5e0!3m2!1ses!2sar!4v1674958272621!5m2!1ses!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="text-maps">
+            <h3>Sucursal Cañada</h3>
+            <p>Calle Figueroa Alcorta 56</p>
+          </div>
+        </div>
+        <div class="container-maps">
+          <div class="maps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.6843987297334!2d-64.18687628178253!3d-31.422820352913394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29007ba43a1%3A0x71d68825809b990e!2sBest%20Club!5e0!3m2!1ses!2sar!4v1674958385515!5m2!1ses!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="text-maps">
+              <h3>Sucursal Chacabuco</h3>
+              <p>Calle Chacabuco 472</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="titulo_redes">Buscanos en nuestas redes</p>
+      <a class="icons" href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <p class="copyr">Copyrigth Effort 2023 | Creado por Kevin Zalasar</p>
+    </footer>
+  </body>
+</html>
