@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Unbounded", cursive;
+}
+
 @import "_navbar.scss";
-@import "index.scss";
+@import "_index.scss";
 @import "_actividades.scss";
 @import "_footer.scss";
 @import "_contactanos.scss";

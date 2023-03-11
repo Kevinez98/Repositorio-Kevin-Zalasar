@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Unbounded", cursive;
+}
+
 .navbar {
   background-color: black;
   width: 100%;
@@ -32,7 +36,7 @@
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   margin-left: 3rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 .navbar .nav_link::before {
   display: block;
@@ -45,7 +49,42 @@
   transition: 0.8s;
 }
 .navbar .nav_link:hover::before {
-  width: 13%;
+  width: 15%;
+}
+
+.inicio {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 2rem;
+}
+.inicio .text_principal {
+  color: #cc0404;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+main {
+  background-color: white;
+}
+
+.card {
+  margin: 2rem;
+  background-color: gray;
+}
+.card .card-title {
+  color: white;
+}
+.card .card-text {
+  font-size: 1.2rem;
+}
+.card .card-img-top {
+  width: 120px;
+}
+
+.paseonline {
+  margin: 3rem;
+  background-color: #04b5cc;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

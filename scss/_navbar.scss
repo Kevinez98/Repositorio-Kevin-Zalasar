@@ -26,7 +26,7 @@
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     margin-left: 3rem;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
   .nav_link::before {
     display: block;
@@ -39,6 +39,6 @@
     transition: 0.8s;
   }
   .nav_link:hover::before {
-    width: 13%;
+    width: 15%;
   }
 }
