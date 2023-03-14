@@ -7,7 +7,6 @@
   .text_principal {
     color: #cc0404;
     margin-bottom: 1rem;
-    font-size: 3rem;
   }
 }
 
@@ -18,14 +17,15 @@ main {
 .card {
   margin: 2rem;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
   .card-title {
     color: black;
   }
-  .card-text {
-    font-size: 1.2rem;
-  }
   .card-img-top {
-    width: 120px;
+    width: 124px;
   }
 }
 
@@ -33,9 +33,6 @@ main {
   background-color: #00e1ff;
   width: 100%;
   margin-bottom: 3rem;
-  .text_adq {
-    font-size: 2rem;
-  }
   .btn {
     background-color: rgb(38, 211, 3);
   }

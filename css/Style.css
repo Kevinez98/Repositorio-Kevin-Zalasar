@@ -10,9 +10,7 @@ body {
 
 .navbar {
   background-color: black;
-  width: 100%;
   clear: both;
-  display: flex;
   justify-content: space-between;
   height: 7rem;
 }
@@ -35,8 +33,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
-  margin-left: 3rem;
-  font-size: 1.4rem;
+  margin-left: 1rem;
 }
 .navbar .nav_link::before {
   display: block;
@@ -61,7 +58,6 @@ body {
 .inicio .text_principal {
   color: #cc0404;
   margin-bottom: 1rem;
-  font-size: 3rem;
 }
 
 main {
@@ -71,24 +67,22 @@ main {
 .card {
   margin: 2rem;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }
 .card .card-title {
   color: black;
 }
-.card .card-text {
-  font-size: 1.2rem;
-}
 .card .card-img-top {
-  width: 120px;
+  width: 124px;
 }
 
 .paseonline {
   background-color: #00e1ff;
   width: 100%;
   margin-bottom: 3rem;
-}
-.paseonline .text_adq {
-  font-size: 2rem;
 }
 .paseonline .btn {
   background-color: rgb(38, 211, 3);
@@ -101,7 +95,6 @@ main {
 }
 #title_actividades .text_act {
   text-align: center;
-  font-size: 2rem;
 }
 
 #actividades {
@@ -137,7 +130,6 @@ main {
 #actividades .row5 .contenido_a h3 {
   font-weight: 400;
   margin-bottom: 15px;
-  font-size: 25px;
 }
 
 #section_table {
@@ -157,7 +149,6 @@ main {
 }
 
 .text_network {
-  font-size: 2rem;
   background-color: rgb(196, 194, 194);
   color: black;
   margin-top: 3rem;
@@ -173,7 +164,6 @@ main {
 }
 
 .copyrigth {
-  font-size: 1rem;
   background-color: black;
   color: white;
 }
@@ -218,7 +208,6 @@ main {
 }
 #ubication .text-ubication {
   margin: 1rem;
-  font-size: 2.5rem;
   text-align: center;
   color: #cc0404;
 }
@@ -228,14 +217,13 @@ main {
   margin: auto;
   width: 90%;
   max-width: 500px;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 #ubication .maps {
   margin: 1rem;
 }
 #ubication .text-maps {
   text-align: center;
-  margin: 1rem;
   color: white;
 }
 
@@ -244,7 +232,6 @@ main {
   color: #cc0404;
 }
 #section_plan .text_plan {
-  font-size: 2rem;
   margin: 1rem;
 }
 
@@ -308,10 +295,6 @@ main {
 }
 #adquirir .text_adquirir {
   margin-bottom: 1rem;
-  font-size: 1.5rem;
-}
-#adquirir .button {
-  font-size: 1.5rem;
 }
 
 .seccioni1 {
@@ -320,23 +303,15 @@ main {
   font-size: 25px;
   padding-top: 2rem;
 }
-.seccioni1 .card3 {
-  display: flex;
-}
 .seccioni1 .textn_container {
   width: 40%;
 }
 .seccioni1 .text_nosotros {
   color: rgb(0, 0, 0);
-  font-size: 1.5rem;
-  margin-left: 2rem;
+  margin: 2rem;
 }
 .seccioni1 .imgn {
-  margin-bottom: 2rem;
-  width: 60%;
-}
-.seccioni1 .img_n {
-  height: 400px;
+  margin: 3rem;
 }
 
 .title_servicios {
@@ -364,10 +339,6 @@ main {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-3%);
 }
-.container_n .img_card {
-  width: 100%;
-  height: 210px;
-}
 .container_n .contenido2 {
   padding: 15px;
   text-align: center;
@@ -394,6 +365,268 @@ main {
 .container_info .infoc .infom {
   margin-left: 2rem;
   background-color: #00e1ff;
+}
+
+/* NAVBAR */
+@media screen and (max-width: 1000px) {
+  .nav_link {
+    font-size: 0.6rem;
+    color: white;
+    font-weight: bold;
+  }
+  .nav__list {
+    position: fixed;
+    width: 100vw;
+    height: calc(100% - 65px);
+    background: #000000;
+    top: -100vh;
+    text-align: center;
+    transition: all 0.4s;
+    flex-direction: column;
+  }
+  .nav_item {
+    margin: 30px 0 0 0;
+    line-height: 30px;
+  }
+  .nav_item:hover {
+    background: none;
+  }
+  .nav_link:hover {
+    color: #000000;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav_link {
+    font-size: 1.3rem;
+  }
+}
+/* INICIO */
+@media screen and (min-width: 320px) {
+  .text_principal {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .text_principal {
+    font-size: 2rem;
+  }
+  .img-inicio {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .card {
+    flex-direction: column;
+  }
+  .card-title {
+    font-size: 1rem;
+  }
+  .card-text {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .card-title {
+    font-size: 1.2rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+}
+/* NOSOTROS */
+@media screen and (min-width: 320px) {
+  .text_nosotros {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .img_n {
+    width: 20rem;
+  }
+}
+@media screen and (min-width: 320px) {
+  .card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 580px) {
+  .img_n {
+    display: none;
+  }
+}
+@media screen and (min-width: 710px) {
+  .img_n {
+    width: 25rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .text_nosotros {
+    font-size: 1.3rem;
+  }
+  .img_n {
+    width: 30rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .text_nosotros {
+    font-size: 1.5rem;
+  }
+  .img_n {
+    width: 35rem;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .contenido2 h2 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contenido2 h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 708px) {
+  .container_n {
+    flex-direction: column;
+  }
+  .img_card {
+    width: 40%;
+    height: 210px;
+  }
+}
+@media screen and (min-width: 709px) {
+  .img_card {
+    width: 100%;
+    height: 210px;
+  }
+}
+/* ACTIVIDADES */
+@media screen and (min-width: 320px) {
+  .text_act {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 700px) {
+  .text_act {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  .contenido_a h3 {
+    font-size: 1rem;
+  }
+  .contenido_a p {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 820px) {
+  .title_horarios {
+    display: none;
+  }
+  .table {
+    display: none;
+  }
+}
+/* ELEGI TU PLAN */
+@media screen and (min-width: 320px) {
+  .text_plan {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .text_plan {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contenido h3 {
+    font-size: 1rem;
+  }
+  .contenido p {
+    font-size: 1rem;
+  }
+  .contenido a {
+    font-size: 1rem;
+  }
+  .text_adquirir p {
+    font-size: 1rem;
+  }
+  .button {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 601px) {
+  .text_adquirir p {
+    font-size: 1.5rem;
+  }
+  .button {
+    font-size: 1.5rem;
+  }
+}
+/* CONTACTO */
+@media screen and (max-width: 600px) {
+  .text-contacto h2 {
+    font-size: 1.2rem;
+  }
+  .text-contacto h3 {
+    font-size: 1.2rem;
+  }
+  .text-ubication {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 601px) {
+  .text-contacto h2 {
+    font-size: 1.7rem;
+  }
+  .text-contacto h3 {
+    font-size: 1.7rem;
+  }
+  .text-ubication {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .text-maps h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 601px) {
+  .text-maps h3 {
+    font-size: 1.5rem;
+  }
+}
+/* FOOTER */
+@media screen and (max-width: 700px) {
+  .text_network {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .text_network {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .text_adq {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .text_adq {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .copyrigth {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .copyrigth {
+    font-size: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
