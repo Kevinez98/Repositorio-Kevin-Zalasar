@@ -69,10 +69,10 @@ main {
 
 .card {
   margin: 2rem;
-  background-color: gray;
+  background-color: white;
 }
 .card .card-title {
-  color: white;
+  color: black;
 }
 .card .card-text {
   font-size: 1.2rem;
@@ -82,9 +82,113 @@ main {
 }
 
 .paseonline {
-  margin: 3rem;
-  background-color: #04b5cc;
+  background-color: #00aeff;
   width: 100%;
+  margin-bottom: 3rem;
+}
+.paseonline .btn {
+  background-color: rgb(38, 211, 3);
+}
+
+.text_network {
+  font-size: 2rem;
+  background-color: rgb(196, 194, 194);
+  color: black;
+  margin-top: 3rem;
+}
+
+.icons {
+  background-color: rgb(196, 194, 194);
+}
+
+.icon {
+  font-size: 3rem;
+  color: crimson;
+}
+
+.copyrigth {
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.seccioni1 {
+  background-color: #00aeff;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 2rem;
+}
+.seccioni1 .card3 {
+  display: flex;
+}
+.seccioni1 .textn_container {
+  width: 40%;
+}
+.seccioni1 .text_nosotros {
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+.seccioni1 .imgn {
+  margin-bottom: 2rem;
+  width: 60%;
+}
+.seccioni1 .img_n {
+  height: 400px;
+}
+
+.title_servicios {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.container_n {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+.container_n .card2 {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: gray;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.container_n .card2:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+.container_n .img_card {
+  width: 100%;
+  height: 210px;
+}
+.container_n .contenido2 {
+  padding: 15px;
+  text-align: center;
+}
+.container_n .contenido2 h2 {
+  font-weight: 400;
+  color: white;
+}
+
+.container_info {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+.container_info .infoc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_info .infoc .infom {
+  margin-left: 2rem;
+  background-color: #00aeff;
 }
 
 /*# sourceMappingURL=style.css.map */
