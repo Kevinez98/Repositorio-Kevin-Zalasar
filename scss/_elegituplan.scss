@@ -1,0 +1,74 @@
+#section_plan {
+  text-align: center;
+  color: #cc0404;
+  .text_plan {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+}
+
+.precios {
+  background-color: #00e1ff;
+  .container_e {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+  }
+  .card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: gray;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+  }
+  .card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+  }
+  .card img {
+    width: 100%;
+    height: 210px;
+  }
+  .card .contenido {
+    padding: 15px;
+    text-align: center;
+  }
+  .card .contenido p {
+    line-height: 1.5;
+    color: white;
+  }
+  .card .contenido h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .card .contenido a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #00e1ff;
+    border: 1px solid #00e1ff;
+    border-radius: 4px;
+    transition: all 400ms ease;
+  }
+  .card .contenido a:hover {
+    background: #00e1ff;
+    color: white;
+  }
+}
+
+#adquirir {
+  text-align: center;
+  margin: 3rem;
+  .text_adquirir {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  .button {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,60 @@
+#contacto {
+  background-color: #00e1ff;
+  .text-contacto {
+    text-align: center;
+    margin-top: 1rem;
+    color: #cc0404;
+  }
+  .form-register {
+    background-color: gray;
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    margin-top: 2rem;
+    padding: 1.5em 1em;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+  }
+  .title-form {
+    text-align: center;
+  }
+  .form-group {
+    margin-top: 0.5rem;
+    display: grid;
+    gap: 0.5em;
+  }
+  .form-input {
+    width: 95%;
+    padding: 0.6em 0.3em;
+  }
+  .form-select {
+    font-size: 1rem;
+  }
+}
+
+#ubication {
+  background-color: #00e1ff;
+  .text-ubication {
+    margin: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #cc0404;
+  }
+  .container-maps {
+    background-color: black;
+    display: table;
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    margin-top: 2rem;
+  }
+  .maps {
+    margin: 1rem;
+  }
+  .text-maps {
+    text-align: center;
+    margin: 1rem;
+    color: white;
+  }
+}

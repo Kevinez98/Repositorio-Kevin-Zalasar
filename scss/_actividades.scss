@@ -1,0 +1,61 @@
+#title_actividades {
+  text-align: center;
+  color: #cc0404;
+  margin: 1rem;
+  .text_act {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+#actividades {
+  background-color: #00e1ff;
+  .container_a {
+    width: 100%;
+    display: flex;
+    max-width: 1320px;
+  }
+  .row5 {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: gray;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+  }
+  .row5 img {
+    width: 100%;
+    height: 210px;
+  }
+  .row5 .contenido_a {
+    padding: 15px;
+    text-align: center;
+  }
+  .row5 .contenido_a p {
+    line-height: 1.5;
+    color: white;
+  }
+  .row5 .contenido_a h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+}
+
+#section_table {
+  margin-bottom: 2rem;
+  margin: auto;
+  text-align: center;
+  .title_horarios {
+    text-align: center;
+    margin: 2rem;
+    color: #cc0404;
+  }
+  .table {
+    border-style: double;
+    width: 80%;
+    margin-left: 5rem;
+  }
+}

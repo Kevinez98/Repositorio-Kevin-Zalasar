@@ -1,5 +1,5 @@
 .seccioni1 {
-  background-color: #00aeff;
+  background-color: #00e1ff;
   text-align: center;
   font-size: 25px;
   padding-top: 2rem;
@@ -54,10 +54,13 @@
   .contenido2 {
     padding: 15px;
     text-align: center;
+    .text_horario {
+      color: white;
+    }
   }
   .contenido2 h2 {
     font-weight: 400;
-    color: white;
+    color: #cc0404;
   }
 }
 
@@ -72,7 +75,7 @@
     align-items: center;
     .infom {
       margin-left: 2rem;
-      background-color: #00aeff;
+      background-color: #00e1ff;
     }
   }
 }

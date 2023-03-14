@@ -2,6 +2,7 @@
   text-align: center;
   font-size: 25px;
   padding-top: 2rem;
+  background-color: #00e1ff;
 
   .text_principal {
     color: #cc0404;
@@ -29,9 +30,12 @@ main {
 }
 
 .paseonline {
-  background-color: #00aeff;
+  background-color: #00e1ff;
   width: 100%;
   margin-bottom: 3rem;
+  .text_adq {
+    font-size: 2rem;
+  }
   .btn {
     background-color: rgb(38, 211, 3);
   }
