@@ -31,6 +31,7 @@
 @media screen and (min-width: 1200px) {
   .nav_link {
     font-size: 1.3rem;
+    margin: 2rem;
   }
 }
 
@@ -261,7 +262,7 @@
 }
 @media screen and (min-width: 900px) {
   .text_network {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -278,11 +279,11 @@
 
 @media screen and (max-width: 700px) {
   .copyrigth {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 701px) {
   .copyrigth {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }

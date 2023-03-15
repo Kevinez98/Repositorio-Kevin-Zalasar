@@ -60,6 +60,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.container img {
+  animation: from-right 3s ease;
+}
+
 main {
   background-color: white;
 }
@@ -73,10 +77,11 @@ main {
   border: none;
 }
 .card .card-title {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .card .card-img-top {
   width: 124px;
+  animation: from-right 3s ease;
 }
 
 .paseonline {
@@ -84,8 +89,39 @@ main {
   width: 100%;
   margin-bottom: 3rem;
 }
-.paseonline .btn {
-  background-color: rgb(38, 211, 3);
+.paseonline .button_buy {
+  position: relative;
+  text-align: center;
+  background: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.93rem 1.3rem 0.93rem 1.2rem;
+  font-weight: 700;
+  border: 0.1rem solid white;
+  border-radius: 50rem;
+  cursor: pointer;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.5s;
+  margin-bottom: 2rem;
+}
+.paseonline .button_buy:hover span {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.paseonline .button_buy:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  background: linear-gradient(to right, #0bbb22, #47eb55);
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  transition: all 0.5s;
+}
+.paseonline .button_buy:hover:before {
+  height: 190%;
 }
 
 #title_actividades {
@@ -297,6 +333,21 @@ main {
   margin-bottom: 1rem;
 }
 
+.button-contact {
+  background-color: #cc0404;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.93rem 1.3rem 0.93rem 1.2rem;
+  font-weight: 100;
+  border: 0.1rem solid white;
+  border-radius: 50rem;
+  cursor: pointer;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.5s;
+  margin-bottom: 2rem;
+}
+
 .seccioni1 {
   background-color: #00e1ff;
   text-align: center;
@@ -312,6 +363,9 @@ main {
 }
 .seccioni1 .imgn {
   margin: 3rem;
+}
+.seccioni1 .imgn img {
+  animation: from-right 3s ease;
 }
 
 .title_servicios {
@@ -408,6 +462,7 @@ main {
 @media screen and (min-width: 1200px) {
   .nav_link {
     font-size: 1.3rem;
+    margin: 2rem;
   }
 }
 /* INICIO */
@@ -615,7 +670,7 @@ main {
 }
 @media screen and (min-width: 900px) {
   .text_network {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 700px) {
@@ -630,12 +685,12 @@ main {
 }
 @media screen and (max-width: 700px) {
   .copyrigth {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 701px) {
   .copyrigth {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 

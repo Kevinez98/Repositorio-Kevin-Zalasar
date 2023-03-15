@@ -9,6 +9,9 @@
     margin-bottom: 1rem;
   }
 }
+.container img {
+  animation: from-right 3s ease;
+}
 
 main {
   background-color: white;
@@ -22,10 +25,11 @@ main {
   align-items: center;
   border: none;
   .card-title {
-    color: black;
+    color: rgb(0, 0, 0);
   }
   .card-img-top {
     width: 124px;
+    animation: from-right 3s ease;
   }
 }
 
@@ -33,7 +37,39 @@ main {
   background-color: #00e1ff;
   width: 100%;
   margin-bottom: 3rem;
-  .btn {
-    background-color: rgb(38, 211, 3);
+  .button_buy {
+    position: relative;
+    text-align: center;
+    background: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.93rem 1.3rem 0.93rem 1.2rem;
+    font-weight: 700;
+    border: 0.1rem solid white;
+    border-radius: 50rem;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.5s;
+    margin-bottom: 2rem;
+  }
+  .button_buy:hover span {
+    background-color: rgba(#000, 0.6);
+  }
+  .button_buy:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: linear-gradient(to right, #0bbb22, #47eb55);
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+    transition: all 0.5s;
+  }
+
+  .button_buy:hover:before {
+    height: 190%;
   }
 }
